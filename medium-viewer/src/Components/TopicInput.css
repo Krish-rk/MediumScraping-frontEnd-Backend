@@ -1,0 +1,29 @@
+.topic-input {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .topic-input input {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 110px);
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .topic-input button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .topic-input button:hover {
+    background-color: #2980b9;
+  }
+  
