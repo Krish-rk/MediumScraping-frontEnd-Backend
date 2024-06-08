@@ -9,7 +9,7 @@ const ArticlesDisplay = ({ articles }) => {
         {articles.map((article, index) => (
           <div key={index} className="article-card">
             {article.cardImage1Url && (
-              <img src={article.cardImage1Url} alt="Article" className="article-image" />
+              <img src={article.cardImage2Url} alt="Article" className="article-image" />
             )}
             <h3>{article.title || 'No title available'}</h3>
             <p>Author: {article.author || 'Unknown author'}</p>

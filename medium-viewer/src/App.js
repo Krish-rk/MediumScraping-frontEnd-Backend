@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import TopicInput from './Components/TopicInput';
-import ArticlesDisplay from './Components/ArticleDisplay';
-import Loader from './Components/Loader';
-import axiosInstance from './Components/axios';
+import TopicInput from './Components/TopicInput/TopicInput';
+import ArticlesDisplay from './Components/ArticleDIsplay/ArticleDisplay';
+import Loader from './Components/Loader/Loader';
+import axiosInstance from './Components/Axios/axios';
 import './App.css';
 
 const App = () => {
